@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place The Things</title>
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Heading and intro -->
+    <div class="intro">
+        <h1>Place the things</h1>
+        <p>A handy little cheatsheet to help you remember how to move things around the page. And a reminder to keep practicing... even if things don't work to begin with! Use this guide for quick reference or navigate to the <a href="#footer">other resources</a> for more info.</p>
+    </div>
+
+<!-- Table -->
+    <div class="center">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3"><span id="title">Position</span></th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>CSS</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Static</td>
+                    <td><span class="yellow">position: static;</span></td>
+                    <td>Element not positioned in any special way; it is always positioned according to the normal flow of the page.</td>
+                </tr>
+        
+                <tr>
+                    <td>Relative</td>
+                    <td><span class="yellow">position: relative;</span></td>
+                    <td>An element is positioned relative to its normal position.
+                        <br>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+                        </td>
+                </tr>
+        
+                <tr>
+                    <td>Fixed</td>
+                    <td><span class="yellow">position: fixed;</span></td>
+                    <td>The element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.</td>
+                </tr>
+        
+                <tr>
+                    <td>Absolute</td>
+                    <td><span class="yellow">position: absolute;</span></td>
+                    <td>The element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).</td>
+                </tr>
+        
+                <tr>
+                    <td>Sticky</td>
+                    <td><span class="yellow">position: sticky;</span></td>
+                    <td>The element is positioned based on the user's scroll position.</td>
+                </tr>
+            </tbody>  
+        </table>
+    </div>
+
+<!-- Box Diagram -->
+<!-- to be added later: <img src="https://content.codecademy.com/courses/freelance-1/unit-4/diagram-boxmodel.svg"> -->
+
+
+<!-- Footer -->
+    <div class="nav">
+        <footer id="footer">
+            <ul>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-css/modules/learn-css-display-positioning/cheatsheet#:~:text=Positioning%20in%20CSS%20provides%20designers,specific%20spot%20on%20a%20page.">Codecademy Forum</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position/">MDN Webdocs</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+</html>
